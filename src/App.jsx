@@ -6,10 +6,10 @@ import Watch from './pages/watch/Watch'
 
 const App = () => {
   return (
-    // <Home/>
+    <Home/>
     // <Watch/>
     // <Register/>
-    <Login/>
+    // <Login/>
   )
 }
 

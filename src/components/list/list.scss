@@ -1,0 +1,50 @@
+// this is list.scss ==>
+
+.list {
+  width: 100%;
+  margin-top: 40px;
+
+  .listTitle {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 60px;
+  }
+
+  .wrapper {
+    position: relative;
+    // display: flex;
+    // align-items: center;
+
+    .sliderArrow {
+      width: 40px;
+      height: 140px;
+      border-top-left-radius: 9px;
+      border-bottom-left-radius: 9px;
+      background-color: rgba(22, 22, 22, 0.336);
+      color: white;
+      position: absolute;
+      z-index: 99;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      cursor: pointer;
+
+      &.left {
+        // left: 11px;
+        left: 0;
+      }
+      &.right {
+        right: 0px;
+      }
+    }
+    .container {
+      margin-left: 60px;
+      display: flex;
+      margin-top: 10px;
+      // transform: translateX(0px);
+      transition: all 1s ease;
+    }
+  }
+}
+
